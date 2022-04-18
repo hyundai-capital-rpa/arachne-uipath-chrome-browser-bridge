@@ -102,7 +102,21 @@ const reconnect = () => new Promise(
                 lost = true;
             }
         } 
-
+        // when host forbidden error has been occured,
+        else if(chrome.runtime.lastError.message == "Access to the specified native messaging host is forbidden.") {
+            // log runtime error
+            console.log('***', chrome.runtime.lastError.message, '>', curRetrial);
+            
+            // retry connection in interval within max retrial 
+            curRetrial+=1;
+            if(curRetrial<maxRetrial){
+                sleep(interval).
+                    then(() => connect());
+            }
+            else {
+                lost = true;
+            }
+        }
         // when uncaught runtime error has been occured,
         else {
             // log runtime error
@@ -182,9 +196,9 @@ const inject = (message) => new Promise(
 chrome.runtime.onStartup.addListener(() => connect());
 
 // chrome-extension is started
-if(host == null){
-    connect()
-}
+// if(host == null){
+//     connect()
+// }
 
 // start to ping
 ping(interval);

@@ -19,7 +19,7 @@ if __name__ == '__main__':
     host = 'com.arachne.uipath.chrome.browser.bridge.host'
 
     # set application id
-    app = 'dcgmnehcnnncofekjjoikncbikojekje'
+    app = 'jkhkblpliiclebmgpliihbkoomepllef'
 
     # set application version
     version = '0.1_0'
