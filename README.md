@@ -2,13 +2,19 @@
 > **author** : youngseop-kim <br>
 > **project** : arachne-uipath
 
+---
+
+### **about arachne-uipath chrome browser bridge**
+
 &nbsp; &nbsp; **arachne-uipath chrome browser bridge** (hereinafter referred to as the bridge) makes the chrome browser enable to communicate with an external application by hosting native messaging pipeline. as the chrome extension only takes the part of scripting and returing results, please make sure that it does not provide any functionality without the host application which is also known as "native application" described in the official document for chrome extension. you may create your own native application which of name is "com.arachne.uipath.chrome.browser.bridge.host" and allowed to accept stdio, or you may use the native application uploaded in this respository. 
 
 &nbsp; &nbsp; finally, we have one thing left before using the bridge. although a decision where a port from the host application opens depends on users, we strongly recommend the communication with an external application should be opened in a localhost, not in public. even if you have to open your port in public, you should aware that it is very dangerous behavior for the security. it does not support any encryption for messages because it is not considered any functionality for the public communication, only for the localhost communication from the steps of development.
 
 &nbsp; &nbsp; if you are ready to use the bridge, please follow the steps as below. below steps are based on the host application uploaded in this repository.
 
-**steps**
+---
+
+### **steps**
 
 **1. install the bridge in the chrome browser** : https://chrome.google.com/webstore/detail/arachneuipathchromebrowse/dcgmnehcnnncofekjjoikncbikojekje
 
@@ -36,6 +42,8 @@ how to install chrome native messaging pipeline library from pypi
 ```
 
 **4. restart the chrome browser**
+
+---
 
 <br> 
 
