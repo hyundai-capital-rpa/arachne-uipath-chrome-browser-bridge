@@ -2,8 +2,6 @@
 > **author** : youngseop-kim <br>
 > **project** : arachne-uipath
 
-<br>
-
 ### [about arachne-uipath chrome browser bridge](#about-arachne-uipath-chrome-browser-bridge)
 
 ### [prepare arachne-uipath chrome browser bridge](#prepare-arachne-uipath-chrome-browser-bridge)
@@ -14,7 +12,7 @@
 
 ### [arachne-uipath chrome browser bridge client](#arachne-uipath-chrome-browser-bridge-client)
 
-### [chrome browser native messaging pipeline library](#arachne-uipath-chrome-browser-bridge-library)
+### [chrome browser native messaging pipeline library](#chrome-browser-native-messaging-pipeline-library)
 
 ### [publish history](#publish-history)
 
@@ -24,7 +22,7 @@
 
 <br>
 
-## **about arachne-uipath chrome browser bridge**
+## **about-arachne-uipath-chrome-browser-bridge**
 
 ![logo](https://github.com/hyundai-capital-rpa/arachne-uipath-chrome-browser-bridge/blob/main/assets/logo.png)
 
@@ -40,7 +38,7 @@
 
 <br>
 
-## **prepare arachne-uipath chrome browser bridge**
+## **prepare-arachne-uipath-chrome-browser-bridge**
 
 **1. install the bridge in the chrome browser** : https://chrome.google.com/webstore/detail/arachneuipathchromebrowse/dcgmnehcnnncofekjjoikncbikojekje
 
@@ -77,7 +75,7 @@ how to install chrome native messaging pipeline library from pypi
 
 <br>
 
-## **arachne-uipath chrome browser bridge application**
+## **arachne-uipath-chrome-browser-bridge-application**
 
 > **language** <br>
 > &nbsp; &nbsp; - javascript (tested on v8 10.0.139.13) <br>
@@ -103,7 +101,7 @@ _update as soon as possible..._
 
 <br>
 
-## **arachne-uipath chrome browser bridge host**
+## **arachne-uipath-chrome-browser-bridge-host**
 > **language** <br> 
 > &nbsp; &nbsp; - python (tested on v3.9.0 64bit) <br>
 > 
@@ -118,7 +116,7 @@ _update as soon as possible..._
 
 <br>
 
-## **arachne-uipath chrome browser bridge client**
+## **arachne-uipath-chrome-browser-bridge-client**
 > **language** <br> 
 > &nbsp; &nbsp; - python (tested on v3.9.0 64bit) <br>
 > 
@@ -133,7 +131,7 @@ _update as soon as possible..._
 
 <br>
 
-## **chrome browser native messaging pipeline library**
+## **chrome-browser-native-messaging-pipeline-library**
 > **language** <br> 
 > &nbsp; &nbsp; - python (tested on v3.9.0 64bit) <br>
 > 
@@ -148,7 +146,7 @@ _update as soon as possible..._
 
 <br>
 
-## **publish history**
+## **publish-history**
 
 updated on 2022-04-18
 - modified : do connect only on startup
