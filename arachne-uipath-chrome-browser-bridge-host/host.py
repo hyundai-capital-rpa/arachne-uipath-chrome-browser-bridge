@@ -11,6 +11,7 @@ import sys
 sys.dont_write_bytecode = True
 
 if __name__ == '__main__':
+    # published chrome-extension id : dcgmnehcnnncofekjjoikncbikojekje
     from cbnmplib.pipeline import Pipeline
     from cbnmplib.pipeline import serve
     from asyncio import run
@@ -19,10 +20,10 @@ if __name__ == '__main__':
     host = 'com.arachne.uipath.chrome.browser.bridge.host'
 
     # set application id
-    app = 'jkhkblpliiclebmgpliihbkoomepllef'
+    app = 'dcgmnehcnnncofekjjoikncbikojekje'
 
     # set application version
-    version = '0.1_0'
+    version = '0.2_0'
 
     # set injection javascript directory
     jsdirectory = rf'%userprofile%\AppData\Local\Google\Chrome\User Data\Default\Extensions\{app}\{version}'

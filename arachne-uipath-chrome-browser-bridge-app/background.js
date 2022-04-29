@@ -35,11 +35,11 @@ const ping = (delay) => new Promise(
                         host.postMessage({'key':'internal', 'value':'ping'});
                         
                         // log ping (it should be enabled only in debugging connection)
-                        // console.log('ping sent.');
+                        // console.log('ping sent');
                     }
                     catch(e) {
                         // log ping (it should be enabled only in debugging connection)
-                        console.log('ping denied.');
+                        console.log('ping denied', '>', e.message);
                     }
                 }
             ).
@@ -56,7 +56,7 @@ const ping = (delay) => new Promise(
                 () => {
                     if(lost) {
                         // stop recursion
-                        console.log('ping stopped.')
+                        console.log('ping stopped')
                     }
                     else {
                         // recursion
@@ -134,7 +134,7 @@ const queryCurrentTab = () => new Promise(
         let [tab] = await chrome.tabs.query({active: true, currentWindow: true})
         resolve(tab)
     }
-)
+);
 
 const inject = (message) => new Promise(
     (resolve, reject) => {
