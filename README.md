@@ -2,6 +2,8 @@
 > **author** : youngseop-kim <br>
 > **project** : arachne-uipath
 
+<br>
+
 ---
 
 ## **about arachne-uipath chrome browser bridge**
@@ -14,9 +16,9 @@
 
 &nbsp; &nbsp; if you are ready to use the bridge, please follow the steps as below. below steps are based on the host application uploaded in this repository.
 
----
+<br>
 
-<br> 
+---
 
 ## **steps**
 
@@ -49,9 +51,9 @@ how to install chrome native messaging pipeline library from pypi
 
 **4. restart the chrome browser**
 
----
+<br>
 
-<br> 
+---
 
 ## **arachne-uipath chrome browser bridge application**
 
@@ -73,9 +75,9 @@ how to install chrome native messaging pipeline library from pypi
 
 _update as soon as possible..._
 
----
+<br>
 
-<br> 
+---
 
 ## **arachne-uipath chrome browser bridge host**
 > **language** <br> 
@@ -86,9 +88,9 @@ _update as soon as possible..._
 
 _update as soon as possible..._
 
----
-
 <br>
+
+---
 
 ## **arachne-uipath chrome browser bridge client**
 > **language** <br> 
@@ -99,9 +101,9 @@ _update as soon as possible..._
 
 _update as soon as possible..._
 
----
-
 <br>
+
+---
 
 ## **chrome browser native messaging pipeline library**
 > **language** <br> 
@@ -112,9 +114,9 @@ _update as soon as possible..._
 
 _update as soon as possible..._
 
----
-
 <br>
+
+---
 
 ## **publish history**
 
