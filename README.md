@@ -4,7 +4,25 @@
 
 <br>
 
+### [about arachne-uipath chrome browser bridge](#about-arachne-uipath-chrome-browser-bridge)
+
+### [prepare arachne-uipath chrome browser bridge](#prepare-arachne-uipath-chrome-browser-bridge)
+
+### [arachne-uipath chrome browser bridge application](#arachne-uipath-chrome-browser-bridge-application)
+
+### [arachne-uipath chrome browser bridge host](#arachne-uipath-chrome-browser-bridge-host)
+
+### [arachne-uipath chrome browser bridge client](#arachne-uipath-chrome-browser-bridge-client)
+
+### [chrome browser native messaging pipeline library](#arachne-uipath-chrome-browser-bridge-library)
+
+### [publish history](#publish-history)
+
+<br>
+
 ---
+
+<br>
 
 ## **about arachne-uipath chrome browser bridge**
 
@@ -20,7 +38,9 @@
 
 ---
 
-## **steps**
+<br>
+
+## **prepare arachne-uipath chrome browser bridge**
 
 **1. install the bridge in the chrome browser** : https://chrome.google.com/webstore/detail/arachneuipathchromebrowse/dcgmnehcnnncofekjjoikncbikojekje
 
@@ -55,6 +75,8 @@ how to install chrome native messaging pipeline library from pypi
 
 ---
 
+<br>
+
 ## **arachne-uipath chrome browser bridge application**
 
 > **language** <br>
@@ -79,6 +101,8 @@ _update as soon as possible..._
 
 ---
 
+<br>
+
 ## **arachne-uipath chrome browser bridge host**
 > **language** <br> 
 > &nbsp; &nbsp; - python (tested on v3.9.0 64bit) <br>
@@ -91,6 +115,8 @@ _update as soon as possible..._
 <br>
 
 ---
+
+<br>
 
 ## **arachne-uipath chrome browser bridge client**
 > **language** <br> 
@@ -105,6 +131,8 @@ _update as soon as possible..._
 
 ---
 
+<br>
+
 ## **chrome browser native messaging pipeline library**
 > **language** <br> 
 > &nbsp; &nbsp; - python (tested on v3.9.0 64bit) <br>
@@ -117,6 +145,8 @@ _update as soon as possible..._
 <br>
 
 ---
+
+<br>
 
 ## **publish history**
 
@@ -137,3 +167,9 @@ as I forgot uploading the package file on chrome web store publish,
 the modified source on 2022-04-18 did not published properly.
 so modified source will be applied on this publish (updated version 0.1 to version 0.2)
 ```
+
+<br>
+
+---
+
+<br>
