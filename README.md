@@ -189,8 +189,6 @@ message = {
 
 > notice! please take a look an example code uploaded in `arachne-uipath-chrome-browser-bridge-host`.
 
-![how it works cbnmplib](https://github.com/hyundai-capital-rpa/arachne-uipath-chrome-browser-bridge/blob/main/reference/how-it-works-cbnmplib.png)
-
 &nbsp; &nbsp; the bridge host is a `native application` which takes a part of communcation between the bridge application and an external process. you don't have to follow the bridge host uploaded in this repository and don't even contain the bridge host on your design too. the bridge host could be an external process itself. it is only a concept of process design, not an essential part of process.
 
 &nbsp; &nbsp; however, there are several pre-defined rules to make your bridge host or an external process (hereinafter referred to as the bridge host) communicate with the bridge application. first of all, your bridge host has to follow [the native messaging protocol](https://developer.chrome.com/docs/apps/nativeMessaging/#native-messaging-host-protocol) described in official document for chrome extension and also has to follow message format described in [about arachne-uipath chrome browser bridge](#about-arachne-uipath-chrome-browser-bridge). and the manifest file for the bridge host should contain informations as below,
@@ -231,6 +229,8 @@ message = {
 > 
 > **operating system** <br>
 > &nbsp; &nbsp; - windows 10 (tested on v1809 64bit) <br>
+
+![how it works cbnmplib](https://github.com/hyundai-capital-rpa/arachne-uipath-chrome-browser-bridge/blob/main/reference/how-it-works-cbnmplib.png)
 
 &nbsp; &nbsp; this python library which consists of "communicate.py", "pipeline.py" is to make the pipeline for the bridge application. as described in [arachne-uipath chrome browser bridge host](#arachne-uipath-chrome-browser-bridge-host), it is designed for the bridge host which of purpose is focused on our project. it doesn't matter anything even though the bridge host is not present in your conception or your bridge host is not built with this library.
 
