@@ -33,7 +33,7 @@
 
 ### **how it works**
 
-![how it works overall](https://github.com/hyundai-capital-rpa/arachne-uipath-chrome-browser-bridge/reference/how-it-works-overall.png)
+![how it works overall](https://github.com/hyundai-capital-rpa/arachne-uipath-chrome-browser-bridge/blob/main/reference/how-it-works-overall.png)
 
 **chrome browser side**
 1. chrome browser start-up
@@ -189,7 +189,7 @@ message = {
 
 > notice! please take a look an example code uploaded in `arachne-uipath-chrome-browser-bridge-host`.
 
-![how it works cbnmplib](https://github.com/hyundai-capital-rpa/arachne-uipath-chrome-browser-bridge/reference/how-it-works-cbnmplib.png)
+![how it works cbnmplib](https://github.com/hyundai-capital-rpa/arachne-uipath-chrome-browser-bridge/blob/main/reference/how-it-works-cbnmplib.png)
 
 &nbsp; &nbsp; the bridge host is a `native application` which takes a part of communcation between the bridge application and an external process. you don't have to follow the bridge host uploaded in this repository and don't even contain the bridge host on your design too. the bridge host could be an external process itself. it is only a concept of process design, not an essential part of process.
 
