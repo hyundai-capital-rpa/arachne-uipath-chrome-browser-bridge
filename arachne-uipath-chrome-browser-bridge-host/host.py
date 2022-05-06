@@ -26,7 +26,7 @@ if __name__ == '__main__':
     version = '0.2_0'
 
     # set injection javascript directory
-    jsdirectory = rf'%userprofile%\AppData\Local\Google\Chrome\User Data\Default\Extensions\{app}\{version}'
+    jsdirectory = rf'%localappdata%\Google\Chrome\User Data\Default\Extensions\{app}\{version}'
 
     # set logging directory
     ldirectory = rf'%userprofile%\.arachne-uipath\.settings\.chrome-extension\{host}'

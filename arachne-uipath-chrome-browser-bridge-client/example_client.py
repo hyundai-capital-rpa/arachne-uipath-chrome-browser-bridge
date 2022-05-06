@@ -39,13 +39,7 @@ if __name__ == '__main__':
     # === warning! these variables should be the same with your host application === 
 
     # set javascript
-    javascript = '''
-element = document.getElementById("tinymce")
-
-if(element != null) {
-    element.innerHTML = "<h1>hello, novocluster!</h1>" + "<br/>" + "<h3>this message is from arachne-uipath chrome browser bidge</h3>"
-}
-'''
+    javascript = '''document.title;'''
 
     # set message
     message = {'key':'', 'value':javascript}
